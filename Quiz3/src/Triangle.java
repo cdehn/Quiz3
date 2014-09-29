@@ -15,7 +15,9 @@ public Triangle() {
 }
 
 //constructor that creates a triangle with specified sides
-public Triangle(double side1, double side2, double side3){
+public Triangle(double side1, double side2, double side3, String color, boolean filled){
+	super(color, filled);
+	
 	this.side1 = side1;
 	this.side2 = side2;
 	this.side3 = side3;
